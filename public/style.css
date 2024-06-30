@@ -1,0 +1,16 @@
+.brand-gradient{
+    background-color: blue;
+    background: -webkit-linear-gradient(to top, blue, lightgreen);
+    background: linear-gradient(to top, blue,lightgreen  );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.nav-item :hover{
+    background-color: aquamarine;
+}
+.banner-holder{
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-position: bottom; 
+}
